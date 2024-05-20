@@ -1,0 +1,228 @@
+/* TASK 1 Styles */
+#categories{
+    border-radius: 8px;
+        padding: 24px;
+        width: 440px;
+}
+.item{
+    border-radius: 8px;
+        padding: 16px;
+        background-color:  #f6f6fe;
+        margin-bottom: 24px;
+}
+h2 {
+      margin-top: 0;
+     margin-bottom: 16px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 133%;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    width: 360px;
+}
+
+.item ul > li{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+       padding: 8px 16px;
+
+    border: 1px solid #808080;
+     border-radius: 4px;
+     margin-bottom: 8px;
+
+}
+.item>ul>li:last-child {
+    margin-bottom: 0;
+}
+/* TASK 1 Styles*/
+/* TASK 2 Styles*/
+.gallery{
+    width: 1128px;
+    display: flex;
+    flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px;
+    background: #fff;
+    padding:92px  156px 100px ;
+}
+img {
+    width: 360px;
+    height: 300px;
+}
+/* TASK 2 Styles*/
+
+/* TASK 3 Styles*/
+#name-input{
+   padding: 8px 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+
+border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    
+   
+    
+}
+h1{
+   
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 133%;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+
+/* TASK 3 Styles*/
+
+/* TASK 4 Styles*/
+.login-form{
+   width: 360px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-class{
+  
+   margin-bottom: 8px;
+
+}
+
+.input{
+    border: 1px solid #808080;
+        border-radius: 4px;
+        width: 360px;
+        margin-top: 8px;  
+        margin-bottom: 3px;
+        height: 40px;
+        padding-left: 16px;
+        
+}
+
+.input::placeholder{
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.input:hover{
+    border: 1px solid #000;
+
+}
+.btn-class{
+border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    background-color:  #4e75ff;
+    border: 0;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #fff;
+}
+.btn-class:hover{
+    background-color: #6C8CFF;
+}
+
+/* TASK 4 Styles*/
+
+/* TASK 5 Styles*/
+.widget{
+    width: 169px;
+    text-align: center;
+    align-content: center;
+}
+.text-color{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+}
+.change-color{
+border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background-color: #4e75ff;
+border: 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #fff;
+}
+/* TASK 5 Styles*/
+
+/* TASK 6 Styles*/
+#controls{
+margin-bottom: 80px;
+display: flex;
+gap:16px;
+}
+.input-class{
+    border: 1px solid #808080;
+        border-radius: 8px;
+       text-align: center;
+      height: 40px;
+      width: 150px;
+      box-sizing: border-box;
+      margin-bottom: 0;
+       
+}
+.btn-create{
+   
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #fff;
+
+    border-radius: 8px;
+        padding: 8px 16px;
+        width: 120px;
+        height: 40px;
+        background-color: #4e75ff;
+        border: 0;
+}
+.btn-destroy{
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
+        color: #fff;
+
+    border-radius: 8px;
+        padding: 8px 16px;
+        width: 120px;
+        height: 40px;
+        background-color: #ff4e4e;
+        border: 0;
+        
+}
+#boxes{
+    display: flex;
+    gap: 44px;
+}
+/* TASK 6 Styles*/
+
+
