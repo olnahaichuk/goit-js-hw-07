@@ -203,6 +203,9 @@ gap:16px;
         background-color: #4e75ff;
         border: 0;
 }
+.btn-create:hover{
+    background-color: #6C8CFF;
+}
 .btn-destroy{
     font-family: var(--font-family);
         font-weight: 500;
@@ -218,6 +221,9 @@ gap:16px;
         background-color: #ff4e4e;
         border: 0;
         
+}
+.btn-destroy:hover{
+ background-color: #FF7070;
 }
 #boxes{
     display: flex;
