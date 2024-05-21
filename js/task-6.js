@@ -40,7 +40,6 @@ function destroyBoxes() {
     boxesElem.innerHTML = '';
 }
 
-console.log(boxesElem);
 inputEl.classList.add('input-class');
 console.log(inputEl);
 btnCreate.classList.add('btn-create');
