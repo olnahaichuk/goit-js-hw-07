@@ -11,7 +11,8 @@ const btnDestroy = document.querySelector('[data-destroy]');
 // console.log(btnDestroy);
 btnCreate.addEventListener('click', createBoxes)
 // btnDestroy.addEventListener('click', destroyBoxes);
-
+btnDestroy.addEventListener('click', destroyBoxes);
+const fragment = document.createDocumentFragment();
 function createBoxes(){
     const amount = parseInt(inputEl.value);
     console.log(amount);
@@ -28,11 +29,18 @@ for (let i = 0; i < amount; i++){
     box.style.width = `${size}px`
     box.style.height = `${size}px`;
     box.style.backgroundColor = getRandomHexColor();
-    boxesElem.appendChild(box);
+    fragment.appendChild(box);
     size += 10;
   
-}
+    }
+    boxesElem.appendChild(fragment);
 };
+function destroyBoxes() {
+    const boxesElem = document.querySelector('#boxes');
+    boxesElem.innerHTML = '';
+}
+
+console.log(boxesElem);
 inputEl.classList.add('input-class');
 console.log(inputEl);
 btnCreate.classList.add('btn-create');
